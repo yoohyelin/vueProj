@@ -37,11 +37,10 @@ git push origin feature/login-api
 git checkout develop
 git pull origin develop
 git branch -d feature/login-api  # 필요 시 브랜치 삭제
+```
+## 🔹 프론트엔드 & 백엔드 폴더 구조 예시
 
-🔹 프론트엔드 & 백엔드 폴더 구조 예시
-plaintext
-복사
-편집
+```plaintext
 📦 프로젝트 루트
  ┣ 📂 backend/  # 스프링부트 프로젝트
  ┃ ┣ 📂 src/main/java/com/example
